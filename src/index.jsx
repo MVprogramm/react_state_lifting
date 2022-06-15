@@ -7,6 +7,6 @@ import "./user.js";
 const rootElem = document.querySelector('#root');
 
 ReactDOM.render(
-  <App user={null} />,
+  <App user={userData} />,
   rootElem
 );
