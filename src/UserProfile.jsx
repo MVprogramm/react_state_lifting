@@ -3,6 +3,10 @@ import React from "react";
 import "./userProfile.scss";
 
 const UserProfile = (props) => {
+  if (!props.userData) {
+    return null;
+  }
+
   return (
     <div className="user">
       <img

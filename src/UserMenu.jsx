@@ -3,6 +3,10 @@ import React from "react";
 import "./userMenu.scss";
 
 const UserMenu = (props) => {
+  if (!props.userData) {
+    return null;
+  }
+
   return (
     <div className="menu">
       <span className="menu__greeting">
