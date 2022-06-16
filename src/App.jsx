@@ -26,10 +26,6 @@ class App extends React.Component {
   }
 
   render() {
-    if (!this.state.userData) {
-      return null;
-    }
-
     return (
       <div className="page">
         <header className="header">
