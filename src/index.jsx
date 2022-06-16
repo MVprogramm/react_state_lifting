@@ -5,6 +5,6 @@ import App from './App.jsx';
 const rootElem = document.querySelector('#root');
 
 ReactDOM.render(
-  <App user="github" />,
+  <App userId="github" />,
   rootElem
 );

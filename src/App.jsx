@@ -11,7 +11,7 @@ class App extends React.Component {
   }
   
   componentDidMount() {
-    this.fetchUserData(this.props.user);
+    this.fetchUserData(this.props.userId);
   }
 
   fetchUserData = (userId) => {
